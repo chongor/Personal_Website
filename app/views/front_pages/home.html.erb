@@ -1,0 +1,34 @@
+<% provide(:title, 'Home') %>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Welcome to my Site!</h1>
+		<p>Hello there!</p>
+		<p>My name is Darren Yin, a current sophomore at the University of Pennsylvania, majoring in Computer Science and minoring in Fine Arts.</p>
+		<p>This site is still under construction, however feel free to look around.</p>
+		<p>Made with Ruby on Rails and Bootstrap</p>
+		<p><%= link_to "Contact Me &raquo;".html_safe, contact_path, class: "btn btn-primary btn-large" %></p>
+	</div>
+
+	<div class ="body-content">
+		<div class="row-fluid">
+			<div class="col-lg-4">
+				<h2>Computer Science</h2>
+				<p>Check out my qualifications as a programmer and some projects that I have done!</p>
+				<p><%= link_to "Code &raquo;".html_safe, code_path, class: "btn btn-default" %></p>
+			</div>
+
+			<div class="col-lg-4">
+				<h2>Art</h2>
+				<p>Check out my qualifications in design and the arts along with my portfolio!</p>
+				<p><%= link_to "Portfolio &raquo;".html_safe, art_path, class: "btn btn-default" %></p>
+			</div>
+
+			<div class="col-lg-4">
+				<h2>About</h2>
+				<p>Learn a bit more about me!</p>
+				<p><%= link_to "About me &raquo;".html_safe, about_path, class: "btn btn-default" %></p>
+			</div>
+		</div>
+	</div>
+
