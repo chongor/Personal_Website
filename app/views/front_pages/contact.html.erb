@@ -1,8 +1,12 @@
 <% provide(:title, 'Contact') %>
+<% provide(:contact, "active") %>
 
 <div class="container", style= "padding-top: 50px;">
 	<div class="jumbotron">
 		<h1>Still Under Construction!  Sorry =\</h1>
 		<p>Still working on a email form.  But in the meantime please email me!</p>
-		<p>Email:  darreny@seas.upenn.com</p>
+		<div>
+			Email to 
+			<%= link_to "darreny@seas.upenn.edu", "mailto:darreny@seas.upenn.edu" %>
+		</div>
 	</div>
