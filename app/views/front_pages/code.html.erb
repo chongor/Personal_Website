@@ -1,44 +1,58 @@
 <% provide(:title, 'Code') %>
 <% provide(:code, "active") %>
 
-<div class="container", style= "padding-top: 50px;">
+<div class="container span8 offset2", style= "padding-top: 50px;">
 	<div class="panel panel-default", >
 	  <!-- Default panel contents -->
-	  <div class="panel-heading">Qualifications</div>
+	  <div class="panel-heading" align="center">Qualifications</div>
 
 	  <!-- Table -->
-	  <table class="table table-condensed table-hover">
+	  <table class="table table-condensed table-hovercol-lg-8">
 	  	<thead>
 	  		<tr>
-	  			<th>Language</th>
-	  			<th>Level</th>
+	  			<th class="col-lg-6" style="text-align: center;">Language</th>
+	  			<th class="col-lg-6" style="text-align: center;">Level</th>
 	  		</tr>
 	  	</thead>
 	  	<tbody>
 		    <tr>
-		    	<td>Java</td>
-		    	<td>4 Stars</td>
+		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">Java</td>
+		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("5star_template-200x50.png") %></td>
 		    </tr>
 		    <tr>
-		    	<td>OCaml</td>
-		    	<td>2 Stars</td>
+		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">Processing</td>
+		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("5star_template-200x50.png") %></td>
 		    </tr>
 		    <tr>
-		    	<td>Unix</td>
-		    	<td>2 Stars</td>
+		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">C</td>
+		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("4star_template-200x50.png") %></td>
+		    </tr>		    
+		    <tr>
+		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">Unix</td>
+		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("4star_template-200x50.png") %></td>
 		    </tr>
 		    <tr>
-		    	<td>Python</td>
-		    	<td>2 Stars</td>
+		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">Ruby on Rails</td>
+		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("3star_template-200x50.png") %></td>
+		    </tr>
+		    <tr>
+		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">OCaml</td>
+		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("3star_template-200x50.png") %></td>
+		    </tr>
+
+		    <tr>
+		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">Python</td>
+		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("2star_template-200x50.png") %></td>
 		    </tr>
 		</tbody>
 	  </table>
 	</div>
-
+</div>
+<div class="container">
 	<div class ="body-content">
 		<div class="col-lg-8">
 			<h2>Check out my Github!</h2>
 			<p>As of now all of my completed projects can be found here.</p>
-			<p><%= link_to "Onwards! &raquo;".html_safe, "https://www.github.com/Chongor", :target => "_blank", class: "btn btn-default" %></p>
+			<p><%= link_to "Onwards! &raquo;".html_safe, "https://www.github.com/Chongor", :target => "_blank", class: "btn btn-primary" %></p>
 		</div>
 	</div>
