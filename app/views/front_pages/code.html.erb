@@ -1,52 +1,76 @@
 <% provide(:title, 'Code') %>
 <% provide(:code, "active") %>
 
-<div class="container span8 offset2", style= "padding-top: 50px;">
-	<div class="panel panel-default", >
-	  <!-- Default panel contents -->
-	  <div class="panel-heading" align="center">Qualifications</div>
+<div class="container", style= "padding-top: 50px;">
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="panel panel-default">
+			  <!-- Default panel contents -->
+			  <div class="panel-heading" align="center">Programming</div>
 
-	  <!-- Table -->
-	  <table class="table table-condensed table-hovercol-lg-8">
-	  	<thead>
-	  		<tr>
-	  			<th class="col-lg-6" style="text-align: center;">Language</th>
-	  			<th class="col-lg-6" style="text-align: center;">Level</th>
-	  		</tr>
-	  	</thead>
-	  	<tbody>
-		    <tr>
-		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">Java</td>
-		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("5star_template-200x50.png") %></td>
-		    </tr>
-		    <tr>
-		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">Processing</td>
-		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("5star_template-200x50.png") %></td>
-		    </tr>
-		    <tr>
-		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">C</td>
-		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("4star_template-200x50.png") %></td>
-		    </tr>		    
-		    <tr>
-		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">Unix</td>
-		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("4star_template-200x50.png") %></td>
-		    </tr>
-		    <tr>
-		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">Ruby on Rails</td>
-		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("3star_template-200x50.png") %></td>
-		    </tr>
-		    <tr>
-		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">OCaml</td>
-		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("3star_template-200x50.png") %></td>
-		    </tr>
+			  <!-- Table -->
+			  <table class="table table-condensed table-hover table-col-lg-4">
+			  	<thead>
+			  		<tr>
+			  			<th class="col-lg-2" style="text-align: center;">Language</th>
+			  			<th class="col-lg-2" style="text-align: center;">Level</th>
+			  		</tr>
+			  	</thead>
+			  	<tbody>
+				    <tr>
+				    	<td class="col-lg-2" style="text-align: center; vertical-align: middle;">Java</td>
+				    	<td class="col-lg-2" style="text-align: center;"><%= image_tag("5star_template-200x50.png") %></td>
+				    </tr>
+				    <tr>
+				    	<td class="col-lg-2" style="text-align: center; vertical-align: middle;">Processing</td>
+				    	<td class="col-lg-2" style="text-align: center;"><%= image_tag("5star_template-200x50.png") %></td>
+				    </tr>
+				    <tr>
+				    	<td class="col-lg-2" style="text-align: center; vertical-align: middle;">C</td>
+				    	<td class="col-lg-2" style="text-align: center;"><%= image_tag("4star_template-200x50.png") %></td>
+				    </tr>		    
+				    <tr>
+				    	<td class="col-lg-2" style="text-align: center; vertical-align: middle;">Unix & Shell Scripting</td>
+				    	<td class="col-lg-2" style="text-align: center;"><%= image_tag("4star_template-200x50.png") %></td>
+				    </tr>
+				    
+				    <tr>
+				    	<td class="col-lg-2" style="text-align: center; vertical-align: middle;">OCaml</td>
+				    	<td class="col-lg-2" style="text-align: center;"><%= image_tag("3star_template-200x50.png") %></td>
+				    </tr>
+				</tbody>
+			  </table>
+			</div>
+		</div>
+			<div class="col-lg-6">
+				<div class="panel panel-default">
+			  	<div class="panel-heading" align="center">Web Development</div>
 
-		    <tr>
-		    	<td class="col-lg-6" style="text-align: center; vertical-align: middle;">Python</td>
-		    	<td class="col-lg-6" style="text-align: center;"><%= image_tag("2star_template-200x50.png") %></td>
-		    </tr>
-		</tbody>
-	  </table>
-	</div>
+			 	 <!-- Table -->
+			  	<table class="table table-condensed table-hover table-col-lg-4 ">
+				  	<thead>
+				  		<tr>
+				  			<th class="col-lg-2" style="text-align: center;">Framework</th>
+				  			<th class="col-lg-2" style="text-align: center;">Level</th>
+				  		</tr>
+				  	</thead>
+				  	<tbody>
+						<tr>
+					    	<td class="col-lg-2" style="text-align: center; vertical-align: middle;">Ruby on Rails</td>
+					    	<td class="col-lg-2" style="text-align: center;"><%= image_tag("3star_template-200x50.png") %></td>
+					    </tr>
+					    <tr>
+					    	<td class="col-lg-2" style="text-align: center; vertical-align: middle;">Python & Django</td>
+					    	<td class="col-lg-2" style="text-align: center;"><%= image_tag("2star_template-200x50.png") %></td>
+					    </tr>
+					    <tr>
+					    	<td class="col-lg-2" style="text-align: center; vertical-align: middle;">HTML, CSS, & Javascript</td>
+					    	<td class="col-lg-2" style="text-align: center;"><%= image_tag("3star_template-200x50.png") %></td>
+					    </tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
 </div>
 <div class="container">
 	<div class ="body-content">
