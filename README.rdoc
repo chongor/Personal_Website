@@ -1,5 +1,7 @@
 == README
 
+2025 Update: I never got back to finishing this and have no intentions of returning to it at this time. Created another personal site which can be found here: https://github.com/chongor/chongor.github.io
+
 Personal Website that is still under construction.  Site is created using Ruby on Rails and Boostrap.
 
 Using the experience to learn HTML, CSS, Javascript, and Ruby on Rails.
